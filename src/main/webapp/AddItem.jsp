@@ -8,14 +8,17 @@
 </head>
 <body>
 
-<h2 >Welcome to the home management application. Please enter the list of items here: </h2>
+<h2 span=center>Welcome to the home management application. Please enter the list of items here: </h2>
 
 <form action="AddMasterItem" method="post">
 
 <table>
 <tr>
-<td>Item Name: </td><td> <input type="text" name ="itemname"> </td></tr>
-<tr><td></td><td> <input type="submit" value="Add" >  </td></tr>
+<td>Item Name: </td><td> <input type="text" name ="itemname"> </td><br>
+<td></td><td> <input type="submit" value="Add" >  </td>
+
+</tr>
+
 
 </table>
 
