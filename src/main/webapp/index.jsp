@@ -8,11 +8,11 @@
 </head>
 <body>
 
-<h2 >Welcome to the home management application. Please enter the list of items here: </h2>
+<h2 align=center>Welcome to the home management application. Please enter the list of items here: </h2>
 
 <form action="AddMasterItem" method="post">
 
-<table>
+<table align =center>
 <tr>
 <td>Item Name: </td><td> <input type="text" name ="itemname"> </td></tr>
 <tr><td></td><td> <input type="submit" value="Add" >  </td></tr>
@@ -21,7 +21,7 @@
 
 </form>
 
-<h3><span style="color:red"><%=(request.getAttribute("msg") == null) ? "": request.getAttribute("msg")%></span></h3>
+<!-- <h3>style="color:red"><%=(request.getAttribute("msg") == null) ? "": request.getAttribute("msg")%></h3> -->
 
 </body>
 </html>

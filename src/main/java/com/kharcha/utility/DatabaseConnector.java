@@ -37,10 +37,10 @@ public class DatabaseConnector {
 		
 		Connection con= null;
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 			
 			try {
-				con=DriverManager.getConnection(getURL(), getUserName(), getPassword());
+				con=DriverManager.getConnection(getURL(), getUserName(),getPassword());
 				
 				
 			} catch (SQLException e) {

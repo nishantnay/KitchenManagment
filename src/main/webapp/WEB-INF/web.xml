@@ -11,9 +11,19 @@
   	<description></description>
   	<servlet-class>com.kharcha.Servlet.AddMasterItem</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ShowData</servlet-name>
+  	<display-name>ShowData</display-name>
+  	<description></description>
+  	<servlet-class>com.kharcha.Servlet.ShowData</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>AddMasterItem</servlet-name>
   	<url-pattern>/AddMasterItem</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowData</servlet-name>
+  	<url-pattern>/ShowData</url-pattern>
   </servlet-mapping>
   
 </web-app>

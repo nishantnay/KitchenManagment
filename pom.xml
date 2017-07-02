@@ -17,6 +17,7 @@
 		</repository>
 	</repositories>
 
+
 	<dependencies>
 
 		<dependency>
@@ -38,12 +39,24 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>6.0.2</version>
+			<version>5.1.40</version>
 		</dependency>
 
 
 	</dependencies>
 	<build>
-		<finalName>HomeAutomation</finalName>
-	</build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.1</version>
+					<configuration>
+						<source>1.8</source>
+						<target>1.8</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+  <finalName>HomeAutomation</finalName>
+  </build>
 </project>
